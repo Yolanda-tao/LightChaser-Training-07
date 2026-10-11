@@ -26,7 +26,7 @@ int main() {
         break;
         default:
         printf("op false");
-        break;       //确保符号
+        break;       //确保符号，不乱码
         }
         return 0;
 }
