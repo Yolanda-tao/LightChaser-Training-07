@@ -5,7 +5,7 @@ int main() {
     printf("enter numbers");
     if (scanf("%lf %c %lf", &a, &op, &b)!=3) {
         printf("format false \n");
-        return 0;
+        return 0;                //先把数字符号弄出来
     }
     switch(op) {
         case '+':
@@ -20,13 +20,13 @@ int main() {
         case '/':
         if (b == 0) {
             printf("false");
-            return 0;
+            return 0;            //防止除数为0
         }
         printf("result:%.2lf / %.2lf = %.2lf\n",a, b, a / b);
         break;
         default:
         printf("op false");
-        break;
+        break;       //确保符号
         }
         return 0;
 }
