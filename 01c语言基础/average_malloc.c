@@ -20,6 +20,6 @@ int main() {
     }
     printf("answer:%.2lf\n", sum/n);
     free(arr);
-    arr = NULL;
+    arr = NULL;     //抄袭教程
     return 0;
 }
