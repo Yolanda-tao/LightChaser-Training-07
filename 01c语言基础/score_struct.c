@@ -1,6 +1,6 @@
 #include <stdio.h>
 struct student{
-    char name[50];
+    char name[50];    //设定name可以多个字
     int score;
 };
 int main(){
